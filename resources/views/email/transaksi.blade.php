@@ -422,7 +422,7 @@
                                     </blockquote>
                                     <p class="size-16" style="Margin-top: 20px;Margin-bottom: 20px;font-size: 16px;line-height: 24px;text-align: center;" lang="x-size-16">Pembayaran bisa melalui ATM, aplikasi Livin' Mandiri dan Teller Bank. Harap pastikan nominal transfer sudah sama hingga tiga digit terakhir. Jika sudah melakukan pembayaran silahkan klik tombol dibawah ini.</p>
                                         <div class="btn btn--flat btn--large" style="Margin-bottom: 20px;text-align: center;">
-                                            <a style="border-radius: 4px;display: block;font-size: 14px;font-weight: bold;line-height: 24px;padding: 12px 24px;text-align: center;text-decoration: none !important;transition: opacity 0.1s ease-in;color: #ffffff !important;background-color: #142e71;font-family: PT Serif, Georgia, serif;" href="http://127.0.0.1:8000/email/payment/verify/{{ $recentTrx->idTransaksi }}">Saya Sudah Bayar</a>
+                                            <a style="border-radius: 4px;display: block;font-size: 14px;font-weight: bold;line-height: 24px;padding: 12px 24px;text-align: center;text-decoration: none !important;transition: opacity 0.1s ease-in;color: #ffffff !important;background-color: #142e71;font-family: PT Serif, Georgia, serif;" href="{{ route('emailPayment',[$recentTrx->idTransaksi])}}">Saya Sudah Bayar</a>
                                         </div>
                                     </div>
                                 </div>
@@ -441,7 +441,7 @@
                                     </blockquote>
                                     <p class="size-16" style="Margin-top: 20px;Margin-bottom: 20px;font-size: 16px;line-height: 24px;text-align: center;" lang="x-size-16">Pembayaran bisa melalui ATM, aplikasi BRIMO, Teller Bank dan Agen BRI. Harap pastikan nominal transfer sudah sama hingga tiga digit terakhir. Jika sudah melakukan pembayaran silahkan klik tombol dibawah ini.</p>
                                         <div class="btn btn--flat btn--large" style="Margin-bottom: 20px;text-align: center;">
-                                            <a style="border-radius: 4px;display: block;font-size: 14px;font-weight: bold;line-height: 24px;padding: 12px 24px;text-align: center;text-decoration: none !important;transition: opacity 0.1s ease-in;color: #ffffff !important;background-color: #142e71;font-family: PT Serif, Georgia, serif;" href="http://127.0.0.1:8000/email/payment/verify/{{ $recentTrx->idTransaksi }}">Saya Sudah Bayar</a>
+                                            <a style="border-radius: 4px;display: block;font-size: 14px;font-weight: bold;line-height: 24px;padding: 12px 24px;text-align: center;text-decoration: none !important;transition: opacity 0.1s ease-in;color: #ffffff !important;background-color: #142e71;font-family: PT Serif, Georgia, serif;" href="{{ route('emailPayment',[$recentTrx->idTransaksi])}}">Saya Sudah Bayar</a>
                                         </div>
                                     </div>
                                 </div>
@@ -460,7 +460,7 @@
                                     </blockquote>
                                     <p class="size-16" style="Margin-top: 20px;Margin-bottom: 20px;font-size: 16px;line-height: 24px;text-align: center;" lang="x-size-16">Pembayaran bisa melalui ATM, aplikasi M-BCA, Aplikasi Blu dan Teller Bank. Harap pastikan nominal transfer sudah sama hingga tiga digit terakhir. Transfer dari BCA ke BCA Digital (Blu) tidak dikenakan biaya admin. Jika sudah melakukan pembayaran silahkan klik tombol dibawah ini.</p>
                                         <div class="btn btn--flat btn--large" style="Margin-bottom: 20px;text-align: center;">
-                                            <a style="border-radius: 4px;display: block;font-size: 14px;font-weight: bold;line-height: 24px;padding: 12px 24px;text-align: center;text-decoration: none !important;transition: opacity 0.1s ease-in;color: #ffffff !important;background-color: #142e71;font-family: PT Serif, Georgia, serif;" href="http://127.0.0.1:8000/email/payment/verify/{{ $recentTrx->idTransaksi }}">Saya Sudah Bayar</a>
+                                            <a style="border-radius: 4px;display: block;font-size: 14px;font-weight: bold;line-height: 24px;padding: 12px 24px;text-align: center;text-decoration: none !important;transition: opacity 0.1s ease-in;color: #ffffff !important;background-color: #142e71;font-family: PT Serif, Georgia, serif;" href="{{ route('emailPayment',[$recentTrx->idTransaksi])}}">Saya Sudah Bayar</a>
                                         </div>
                                     </div>
                                 </div>
@@ -479,7 +479,7 @@
                                     </blockquote>
                                     <p class="size-16" style="Margin-top: 20px;Margin-bottom: 20px;font-size: 16px;line-height: 24px;text-align: center;" lang="x-size-16">Pembayaran bisa melalui ATM, aplikasi BNI Mobile, internet banking, dan Teller Bank. Harap pastikan nominal transfer sudah sama hingga tiga digit terakhir. Jika sudah melakukan pembayaran silahkan klik tombol dibawah ini.</p>
                                         <div class="btn btn--flat btn--large" style="Margin-bottom: 20px;text-align: center;">
-                                            <a style="border-radius: 4px;display: block;font-size: 14px;font-weight: bold;line-height: 24px;padding: 12px 24px;text-align: center;text-decoration: none !important;transition: opacity 0.1s ease-in;color: #ffffff !important;background-color: #142e71;font-family: PT Serif, Georgia, serif;" href="http://127.0.0.1:8000/email/payment/verify/{{ $recentTrx->idTransaksi }}">Saya Sudah Bayar</a>
+                                            <a style="border-radius: 4px;display: block;font-size: 14px;font-weight: bold;line-height: 24px;padding: 12px 24px;text-align: center;text-decoration: none !important;transition: opacity 0.1s ease-in;color: #ffffff !important;background-color: #142e71;font-family: PT Serif, Georgia, serif;" href="{{ route('emailPayment',[$recentTrx->idTransaksi])}}">Saya Sudah Bayar</a>
                                         </div>
                                     </div>
                                 </div>
@@ -495,7 +495,7 @@
                                     <img src="http://127.0.0.1:8000/images/trx/qr-test.png" alt="" style="width:350px;display:block;margin: 0 auto;"> 
                                     <p class="size-16" style="Margin-top: 20px;Margin-bottom: 20px;font-size: 16px;line-height: 24px;text-align: center;" lang="x-size-16">Pembayaran dilakukan melalui scan QR Code QRIS menggunakan aplikasi M-Banking ataupun aplikasi E-Wallet. Harap pastikan nominal transfer sudah sama hingga tiga digit terakhir. Jika sudah melakukan pembayaran silahkan klik tombol dibawah ini.</p>
                                         <div class="btn btn--flat btn--large" style="Margin-bottom: 20px;text-align: center;">
-                                            <a style="border-radius: 4px;display: block;font-size: 14px;font-weight: bold;line-height: 24px;padding: 12px 24px;text-align: center;text-decoration: none !important;transition: opacity 0.1s ease-in;color: #ffffff !important;background-color: #142e71;font-family: PT Serif, Georgia, serif;" href="http://127.0.0.1:8000/email/payment/verify/{{ $recentTrx->idTransaksi }}">Saya Sudah Bayar</a>
+                                            <a style="border-radius: 4px;display: block;font-size: 14px;font-weight: bold;line-height: 24px;padding: 12px 24px;text-align: center;text-decoration: none !important;transition: opacity 0.1s ease-in;color: #ffffff !important;background-color: #142e71;font-family: PT Serif, Georgia, serif;" href="{{ route('emailPayment',[$recentTrx->idTransaksi])}}">Saya Sudah Bayar</a>
                                         </div>
                                     </div>
                                 </div>
@@ -517,7 +517,7 @@
                                     </blockquote>
                                     <p class="size-16" style="Margin-top: 20px;Margin-bottom: 20px;font-size: 16px;line-height: 24px;text-align: center;" lang="x-size-16">Pembayaran dilakukan melalui scan QR Code QRIS menggunakan aplikasi GoJek. Harap pastikan nominal transfer sudah sama hingga tiga digit terakhir. Jika sudah melakukan pembayaran silahkan klik tombol dibawah ini.</p>
                                         <div class="btn btn--flat btn--large" style="Margin-bottom: 20px;text-align: center;">
-                                            <a style="border-radius: 4px;display: block;font-size: 14px;font-weight: bold;line-height: 24px;padding: 12px 24px;text-align: center;text-decoration: none !important;transition: opacity 0.1s ease-in;color: #ffffff !important;background-color: #142e71;font-family: PT Serif, Georgia, serif;" href="http://127.0.0.1:8000/email/payment/verify/{{ $recentTrx->idTransaksi }}">Saya Sudah Bayar</a>
+                                            <a style="border-radius: 4px;display: block;font-size: 14px;font-weight: bold;line-height: 24px;padding: 12px 24px;text-align: center;text-decoration: none !important;transition: opacity 0.1s ease-in;color: #ffffff !important;background-color: #142e71;font-family: PT Serif, Georgia, serif;" href="{{ route('emailPayment',[$recentTrx->idTransaksi])}}">Saya Sudah Bayar</a>
                                         </div>
                                     </div>
                                 </div>
@@ -539,7 +539,7 @@
                                     </blockquote>
                                     <p class="size-16" style="Margin-top: 20px;Margin-bottom: 20px;font-size: 16px;line-height: 24px;text-align: center;" lang="x-size-16">Pembayaran dilakukan melalui scan QR Code Dana menggunakan aplikasi Dana. Harap pastikan nominal transfer sudah sama hingga tiga digit terakhir. Jika sudah melakukan pembayaran silahkan klik tombol dibawah ini.</p>
                                         <div class="btn btn--flat btn--large" style="Margin-bottom: 20px;text-align: center;">
-                                            <a style="border-radius: 4px;display: block;font-size: 14px;font-weight: bold;line-height: 24px;padding: 12px 24px;text-align: center;text-decoration: none !important;transition: opacity 0.1s ease-in;color: #ffffff !important;background-color: #142e71;font-family: PT Serif, Georgia, serif;" href="http://127.0.0.1:8000/email/payment/verify/{{ $recentTrx->idTransaksi }}">Saya Sudah Bayar</a>
+                                            <a style="border-radius: 4px;display: block;font-size: 14px;font-weight: bold;line-height: 24px;padding: 12px 24px;text-align: center;text-decoration: none !important;transition: opacity 0.1s ease-in;color: #ffffff !important;background-color: #142e71;font-family: PT Serif, Georgia, serif;" href="{{ route('emailPayment',[$recentTrx->idTransaksi])}}">Saya Sudah Bayar</a>
                                         </div>
                                     </div>
                                 </div>
@@ -561,7 +561,7 @@
                                     </blockquote>
                                     <p class="size-16" style="Margin-top: 20px;Margin-bottom: 20px;font-size: 16px;line-height: 24px;text-align: center;" lang="x-size-16">Pembayaran dilakukan melalui scan QR Code OVO menggunakan aplikasi OVO. Harap pastikan nominal transfer sudah sama hingga tiga digit terakhir. Jika sudah melakukan pembayaran silahkan klik tombol dibawah ini.</p>
                                         <div class="btn btn--flat btn--large" style="Margin-bottom: 20px;text-align: center;">
-                                            <a style="border-radius: 4px;display: block;font-size: 14px;font-weight: bold;line-height: 24px;padding: 12px 24px;text-align: center;text-decoration: none !important;transition: opacity 0.1s ease-in;color: #ffffff !important;background-color: #142e71;font-family: PT Serif, Georgia, serif;" href="http://127.0.0.1:8000/email/payment/verify/{{ $recentTrx->idTransaksi }}">Saya Sudah Bayar</a>
+                                            <a style="border-radius: 4px;display: block;font-size: 14px;font-weight: bold;line-height: 24px;padding: 12px 24px;text-align: center;text-decoration: none !important;transition: opacity 0.1s ease-in;color: #ffffff !important;background-color: #142e71;font-family: PT Serif, Georgia, serif;" href="{{ route('emailPayment',[$recentTrx->idTransaksi])}}">Saya Sudah Bayar</a>
                                         </div>
                                     </div>
                                 </div>
@@ -583,7 +583,7 @@
                                     </blockquote>
                                     <p class="size-16" style="Margin-top: 20px;Margin-bottom: 20px;font-size: 16px;line-height: 24px;text-align: center;" lang="x-size-16">Pembayaran dilakukan melalui scan QR Code Linkaja menggunakan aplikasi Linkaja. Harap pastikan nominal transfer sudah sama hingga tiga digit terakhir. Jika sudah melakukan pembayaran silahkan klik tombol dibawah ini.</p>
                                         <div class="btn btn--flat btn--large" style="Margin-bottom: 20px;text-align: center;">
-                                            <a style="border-radius: 4px;display: block;font-size: 14px;font-weight: bold;line-height: 24px;padding: 12px 24px;text-align: center;text-decoration: none !important;transition: opacity 0.1s ease-in;color: #ffffff !important;background-color: #142e71;font-family: PT Serif, Georgia, serif;" href="http://127.0.0.1:8000/email/payment/verify/{{ $recentTrx->idTransaksi }}">Saya Sudah Bayar</a>
+                                            <a style="border-radius: 4px;display: block;font-size: 14px;font-weight: bold;line-height: 24px;padding: 12px 24px;text-align: center;text-decoration: none !important;transition: opacity 0.1s ease-in;color: #ffffff !important;background-color: #142e71;font-family: PT Serif, Georgia, serif;" href="{{ route('emailPayment',[$recentTrx->idTransaksi])}}">Saya Sudah Bayar</a>
                                         </div>
                                     </div>
                                 </div>
@@ -605,7 +605,7 @@
                                     </blockquote>
                                     <p class="size-16" style="Margin-top: 20px;Margin-bottom: 20px;font-size: 16px;line-height: 24px;text-align: center;" lang="x-size-16">Pembayaran dilakukan melalui scan QR Code ShopeePay menggunakan aplikasi ShopeePay. Harap pastikan nominal transfer sudah sama hingga tiga digit terakhir. Jika sudah melakukan pembayaran silahkan klik tombol dibawah ini.</p>
                                         <div class="btn btn--flat btn--large" style="Margin-bottom: 20px;text-align: center;">
-                                            <a style="border-radius: 4px;display: block;font-size: 14px;font-weight: bold;line-height: 24px;padding: 12px 24px;text-align: center;text-decoration: none !important;transition: opacity 0.1s ease-in;color: #ffffff !important;background-color: #142e71;font-family: PT Serif, Georgia, serif;" href="http://127.0.0.1:8000/email/payment/verify/{{ $recentTrx->idTransaksi }}">Saya Sudah Bayar</a>
+                                            <a style="border-radius: 4px;display: block;font-size: 14px;font-weight: bold;line-height: 24px;padding: 12px 24px;text-align: center;text-decoration: none !important;transition: opacity 0.1s ease-in;color: #ffffff !important;background-color: #142e71;font-family: PT Serif, Georgia, serif;" href="{{ route('emailPayment',[$recentTrx->idTransaksi])}}">Saya Sudah Bayar</a>
                                         </div>
                                     </div>
                                 </div>
