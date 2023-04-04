@@ -99,41 +99,6 @@
             </div>
           </div>
           <div class="w-full md:w-2/3 lg:w-6/12 xl:w-3/12 px-4">
-            <div class="w-full mb-10">
-              <h4 class="text-white text-lg font-semibold mb-9">Partners</h4>
-              <ul class="flex flex-wrap items-center">
-                <li>
-                  <a href="https://tailgrids.com" rel="nofollow noopner" target="_blank" class=" block mb-6 mr-5 max-w-[120px] xl:max-w-[100px] 2xl:max-w-[120px] " >
-                    <img src="{{ asset('images/footer/brands/tailgrids.svg') }}" alt="tailgrids" />
-                  </a>
-                </li>
-                <li>
-                  <a href="https://ayroui.com" rel="nofollow noopner" target="_blank" class=" block mb-6 mr-5 max-w-[120px] xl:max-w-[100px] 2xl:max-w-[120px] " >
-                    <img src="{{ asset('images/footer/brands/ayroui.svg') }}" alt="ayroui" />
-                  </a>
-                </li>
-                <li>
-                  <a href="https://ecommercehtml.com" rel="nofollow noopner" target="_blank" class=" block mb-6 mr-5 max-w-[120px] xl:max-w-[100px] 2xl:max-w-[120px] " >
-                    <img src="{{ asset('images/footer/brands/ecommerce-html.svg') }}" alt="ecommerce-html" />
-                  </a>
-                </li>
-                <li>
-                  <a href="https://graygrids.com" rel="nofollow noopner" target="_blank" class=" block mb-6 mr-5 max-w-[120px] xl:max-w-[100px] 2xl:max-w-[120px] " >
-                    <img src="{{ asset('images/footer/brands/graygrids.svg') }}" alt="graygrids" />
-                  </a>
-                </li>
-                <li>
-                  <a href="https://lineicons.com" rel="nofollow noopner" target="_blank" class=" block mb-6 mr-5 max-w-[120px] xl:max-w-[100px] 2xl:max-w-[120px] ">
-                    <img src="{{ asset('images/footer/brands/lineicons.svg') }}" alt="lineicons" />
-                  </a>
-                </li>
-                <li>
-                  <a href="https://uideck.com" rel="nofollow noopner" target="_blank" class=" block mb-6 mr-5 max-w-[120px] xl:max-w-[100px] 2xl:max-w-[120px] " >
-                    <img src="{{ asset('images/footer/brands/uideck.svg') }}" alt="uideck" />
-                  </a>
-                </li>
-              </ul>
-            </div>
           </div>
         </div>
       </div>
